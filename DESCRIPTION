@@ -1,0 +1,17 @@
+Package: Hext
+Type: Package
+Title: Gaussian mixture hidden Markov models for mix-type sequence. 
+Version: 0.9.0
+Date: 2017-02-03
+Author: Horace W Tso <horacetso@gmail.com>
+Maintainer: Horace W Tso <horacetso@gmail.com>
+Description: Gaussian mixture hidden Markov model for multiple sequence with mixed-type extensions. This is a fork of the mhsmm package. Gaussian mixture emission is added. Forward-backward algorithm implemented in log-domain.
+License: MIT
+LazyLoad: yes
+Depends: R (>= 3.0.0)
+Imports: mvtnorm, MCMCpack, MASS, corpcor, Rsolnp
+Repository: None
+NeedsCompilation: yes
+Encoding: latin1
+Packaged: 2012-10-31 08:07:23 UTC; HT
+RoxygenNote: 5.0.1
